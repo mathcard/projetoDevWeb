@@ -1,0 +1,15 @@
+.conteudo{
+  background: #53537c;
+  border: 1px solid gray;
+  width: 150px;
+  height: 150px;
+  float: right;
+}
+
+.conteudo1{
+  background: #be6565;
+  border: 1px solid gray;
+  width: 150px;
+  height: 150px;  
+  float: none; /* left, right, none */
+}
