@@ -1,15 +1,26 @@
+#principal{
+  border: 2px solid red;
+  background: #b6b6bd;
+}
+
 .conteudo{
   background: #53537c;
   border: 1px solid gray;
-  width: 150px;
-  height: 150px;
-  float: right;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  float: left; /* left, right, none */  
 }
 
-.conteudo1{
+.conteudo-zero{
   background: #be6565;
   border: 1px solid gray;
-  width: 150px;
-  height: 150px;  
-  float: none; /* left, right, none */
+  width: 200px;
+  height: 250px;
+  margin: 20px;  
 }
+
+.clear{
+  clear: both; /*left, rigth, both, none*/
+}
+
