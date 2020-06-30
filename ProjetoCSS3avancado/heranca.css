@@ -1,0 +1,11 @@
+.pagina p {
+  color: red !important;
+}
+
+.pagina p{
+  color: blue;
+}
+
+h1.verde{
+  color: green;
+}
