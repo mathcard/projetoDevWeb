@@ -14,9 +14,9 @@
     ul a{
       width: 200px;
       height: 40px;
-      display: block;
-      border: 1px solid red;
-      background: url(imagens/menu.png) left ;
+      display: block;  /* Para ul pegar todo tamanho*/    
+      /* Caso a imagem não carregue, é exebido uma cor */
+      background: #f7b600 url(imagens/menu.png) left; 
       color: black;
       text-decoration: none;
       text-indent: 40px; /* Tipo um padding */
@@ -25,6 +25,8 @@
 
     a:hover{
       background-position: right;
+      /* Caso a imagem não carregue, é exebido uma cor */
+      background-color: #f99200;
       color: white;
     }
 

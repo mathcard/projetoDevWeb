@@ -1,0 +1,33 @@
+ul{      
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul a{
+  width: 200px;
+  height: 40px;
+  display: block;  /* Para ul pegar todo tamanho*/    
+  /* Caso a imagem não carregue, é exebido uma cor */
+  background: #f7b600 url(imagens/menu.png) left; 
+  color: black;
+  text-decoration: none;
+  text-indent: 40px; /* Tipo um padding */
+  line-height: 40px; /* Tamanho da linha */      
+}
+
+/* PRIMEIRO EXEMPO - Selecionando o hover e a classes selecinada */
+/*a:hover, .selecionado a{
+  background-position: right;     
+  background-color: #f99200;
+  color: white;
+}
+*/
+
+a:hover, 
+#home #navegacao .home a,
+#sobre #navegacao .sobre a{
+  background-position: right;     
+  background-color: #f99200;
+  color: white;
+}
