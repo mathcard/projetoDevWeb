@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: #fff url(../imagens/fundo.png) repeat-x;  
+}
+
+#container{
+  width: 750px;
+  margin: 0 auto;    
+}
+
+#topo{
+  height: 150px;
+  background: url(../imagens/detalhe-topo.png) no-repeat right top;  
+  padding-top: 1em;
+}
+
+.logo{
+  width: 152px;
+  height: 66px;
+  background: url(../imagens/logo.png) no-repeat center;
+  text-indent: -3000px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#topo ul{
+  margin-top: 30px;
+  background: #b10333;
+  float: left;
+}
+
+#topo li{
+  float: left;  
+}
+
+#topo ul a{
+  font-size: 0.9em;
+  color: #fff;
+  display: block;
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  line-height: 2.1em;
+  background: url(../imagens/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeiro a{
+  background: none;
+  /*border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;*/
+}
+
+#topo ul a:hover{
+  color: #69001d;  
+}
+
+body.home #navegacao-horizontal a#home,
+body.brasil #navegacao-horizontal a#brasil,
+body.internacional #navegacao-horizontal a#internacional,
+body.economia #navegacao-horizontal a#economia,
+body.saude #navegacao-horizontal a#saude,
+body.ciencia #navegacao-horizontal a#ciencia,
+body.fotos #navegacao-horizontal a#fotos {
+  background: #de003e;
+  color: #fff;
+  cursor: text;  
+}
