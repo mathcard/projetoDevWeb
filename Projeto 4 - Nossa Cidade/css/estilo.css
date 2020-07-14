@@ -73,3 +73,69 @@ body.fotos #navegacao-horizontal a#fotos {
   color: #fff;
   cursor: text;  
 }
+
+#couteudo{
+  margin-top: 60px;
+  background: pink;
+}
+
+#lateral{
+  width: 180px;
+  float: left;
+  margin: 0 0 20px -750px;  
+}
+
+/*#tres-colunas*/ #primario{
+  width: 270px;
+  float: left;
+  background: blue;
+  margin: 0 0 20px 195px;
+}
+
+#duas-colunas #primario{
+  width: 555px;  
+}
+
+#uma-colunas #primario{
+  width: 750px;  
+  margin: 0 0 20px 0px;
+}
+
+#secundario{
+  width: 270px;
+  float: left;
+  margin: 0 0 20px 15px;
+  background: green;
+}
+
+.caixa{
+  margin: 10px 0;
+  padding: 5px 0 5px 0;
+  background: #f3f3f3 url(../imagens/fundo-caixa.png);
+}
+
+h2{
+  font-size: 1em;
+  background: #294c71;
+  padding: 5px;
+  color: #fff;
+}
+
+.caixa-conteudo{  
+  padding: 5px ;
+  margin-top: 5px;
+  background: #fff ;
+}
+
+
+#container-rodape{
+  background: #294c71;
+  padding: 20px;
+}
+
+#rodape{
+  width: 750px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+}
