@@ -1,0 +1,32 @@
+body {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  border: 3px solid lightcoral;
+  padding: 20px;
+}
+
+nav{
+  margin-top: 20px;
+  border: 3px solid lightcoral;
+}
+
+footer{
+  margin-top: 20px;
+  border: 3px solid lightcoral;
+  padding: 2px;
+  color: white;
+  background: rgb(71, 60, 71);
+}
+
+article {
+  background: orange;
+  padding: 10px;
+}
+
+section {
+  border: 1px dotted #fff;
+}
